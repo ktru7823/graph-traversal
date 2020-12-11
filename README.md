@@ -1,26 +1,16 @@
 # graph-traversal
 1. The algorithm is meant to decide for a given (not necessarily connected) undirected graph, given points U and V, if a path exists between U and V. A DFS is used for the implementation of this solution.
 
-Input is in the following form:
-
-n
-
-m
-
-vertexId vertexId weight
-
-vertexId vertexId weight
-
-...
-
-vertexId vertexId weight
-
-q
-
+Input is in the following form:\
+n\
+m\
+vertexId vertexId weight\
+vertexId vertexId weight\
+...\
+vertexId vertexId weight\
+q\
+vertexId vertexId\
 vertexId vertexId
-
-vertexId vertexId
-
 
 Input explanation:
 First define the graph by defining "n" vertices and "m" edges. Then a list of edges (defined by the vertices on each side), with their associated weight.
