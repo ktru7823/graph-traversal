@@ -11,7 +11,7 @@ vertexId vertexId weight\
 q\
 vertexId vertexId\
 vertexId vertexId\
-...\
+...
 
 Input explanation:\
 First define the graph by defining "n" vertices and "m" edges.\
@@ -59,7 +59,7 @@ vertexId vertexId\
 b\
 vertexId\
 vertexId\
-...\
+...
 
 Input explanation:\
 First define the graph by defining "n" vertices and "m" edges.\
