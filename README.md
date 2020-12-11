@@ -20,7 +20,8 @@ Then provide a list of size "q". This is a list of pairs of vertices to apply th
 An example of valid input is provided in "graphSimple.in".
 
 Output: For each pair of vertices to test in order, output 0 (no path exists) or 1 (a path exists).
-
+<br>
+<br>
 
 2. This is a variant of the Minimum Spanning Tree (MST) problem with an additional requirement: specified edges that must be included in the final tree. Prim's algorithm is used for the implementation of this solution.
 
@@ -43,7 +44,8 @@ Then provide a list of size "a". This is a list of edges (pairs of vertices) tha
 An example of valid input is provided in "graphExample.in".
 
 Output: The total weight of the resulting MST, rounded to 2 decimal places.
-
+<br>
+<br>
 
 3. This is another variant of the MST problem, an extension of (2), where there is an additional requirement: a specified set of vertices which must be connected to exactly 1 edge. This solution again uses Prim's algorithm.
 
