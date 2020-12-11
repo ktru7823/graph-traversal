@@ -10,7 +10,8 @@ vertexId vertexId weight\
 vertexId vertexId weight\
 q\
 vertexId vertexId\
-vertexId vertexId
+vertexId vertexId\
+...\
 
 Input explanation:\
 First define the graph by defining "n" vertices and "m" edges.\
@@ -31,7 +32,8 @@ vertexId vertexId weight\
 vertexId vertexId weight\
 a\
 vertexId vertexId\
-vertexId vertexId
+vertexId vertexId\
+...
 
 Input explanation:\
 First define the graph by defining "n" vertices and "m" edges.\
@@ -53,15 +55,17 @@ vertexId vertexId weight\
 a\
 vertexId vertexId\
 vertexId vertexId\
+...\
 b\
-vertexId vertexId\
-vertexId vertexId
+vertexId\
+vertexId\
+...\
 
 Input explanation:\
 First define the graph by defining "n" vertices and "m" edges.\
 This is a list of edges (defined by the vertices on each side) in the graph, with their associated weight.\
 Then provide a list of size "a". This is a list of edges (pairs of vertices) that must be included in the final MST.\
-Then provide another list of size "b". This is a list of edges (pairs of vertices) that must be connected to exactly 1 edge in the final MST.\
+Then provide another list of size "b". This is a list of vertices that must be part of exactly 1 edge in the final MST.\
 An example of valid input is provided in "graphExample.in".
 
 Output: The total weight of the resulting MST, rounded to 2 decimal places.
