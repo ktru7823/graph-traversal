@@ -1,4 +1,5 @@
 # graph-traversal
+For each of the following programs, input is taken line-by-line from stdin.
 
 ## graph-traversal-1
 The algorithm is meant to decide for a given (not necessarily connected) undirected graph, given points U and V, if a path exists between U and V. A DFS is used for the implementation of this solution.
