@@ -18,9 +18,11 @@ First define the graph by defining "n" vertices and "m" edges.\
 This is a list of edges (defined by the vertices on each side) in the graph, with their associated weight.\
 Then provide a list of size "q". This is a list of "queries" (pairs of vertices) to apply the algorithm to.
 
-Output: For each pair of vertices to test in order, output 0 (no path exists) or 1 (a path exists).
+Output:\
+For each pair of vertices to test in order, output 0 (no path exists) or 1 (a path exists).
 <br>
-An example of valid input is provided in "graphSimple.in". An example output for this is provided below.\
+<br>
+An example of valid input is provided in "graph-traversal-1/graphSimple.in". An example output for this is provided below.\
 ![graph-traversal-1](graph-traversal-1/example.PNG)
 <br>
 <br>
@@ -44,9 +46,11 @@ First define the graph by defining "n" vertices and "m" edges.\
 This is a list of edges (defined by the vertices on each side) in the graph, with their associated weight.\
 Then provide a list of size "a". This is a list of edges (pairs of vertices) that must be included in the final MST.
 
-Output: The total weight of the resulting MST, rounded to 2 decimal places.
+Output:\
+The total weight of the resulting MST, rounded to 2 decimal places.
 <br>
-An example of valid input is provided in "graphExample.in". An example output for this is provided below.\
+<br>
+An example of valid input is provided in "graph-traversal-2/graphExample.in". An example output for this is provided below.\
 ![graph-traversal-2](graph-traversal-2/example2.PNG)
 <br>
 <br>
@@ -75,7 +79,9 @@ This is a list of edges (defined by the vertices on each side) in the graph, wit
 Then provide a list of size "a". This is a list of edges (pairs of vertices) that must be included in the final MST.\
 Then provide another list of size "b". This is a list of vertices that must be part of exactly 1 edge in the final MST.
 
-Output: The total weight of the resulting MST, rounded to 2 decimal places.
+Output:\
+The total weight of the resulting MST, rounded to 2 decimal places.
 <br>
-An example of valid input is provided in "graphExample.in". An example output for this is provided below.\
+<br>
+An example of valid input is provided in "graph-traversal-3/graphExample.in". An example output for this is provided below.\
 ![graph-traversal-3](graph-traversal-3/example3.PNG)
