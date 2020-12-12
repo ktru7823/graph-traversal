@@ -24,7 +24,7 @@ Output:
 For each pair of vertices to test in order, output 0 (no path exists) or 1 (a path exists).
 <br>
 <br>
-An example of valid input is provided in "graph-traversal-1/graphSimple.in". An example output for this is provided below.  
+An example of valid input is provided in "graph-traversal-1/graphSimple.in". The expected output for this example is provided below.  
 ![graph-traversal-1](graph-traversal-1/example.PNG)
 <br>
 <br>
@@ -53,7 +53,7 @@ Output:
 The total weight of the resulting MST, rounded to 2 decimal places.
 <br>
 <br>
-An example of valid input is provided in "graph-traversal-2/graphExample.in". An example output for this is provided below.  
+An example of valid input is provided in "graph-traversal-2/graphExample.in". The expected output for this example is provided below.  
 ![graph-traversal-2](graph-traversal-2/example2.PNG)
 <br>
 <br>
@@ -87,5 +87,5 @@ Output:
 The total weight of the resulting MST, rounded to 2 decimal places.
 <br>
 <br>
-An example of valid input is provided in "graph-traversal-3/graphExample.in". An example output for this is provided below.  
+An example of valid input is provided in "graph-traversal-3/graphExample.in". The expected output for this example is provided below.  
 ![graph-traversal-3](graph-traversal-3/example3.PNG)
