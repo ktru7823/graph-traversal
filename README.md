@@ -24,10 +24,18 @@ Output:
 For each pair of vertices to test in order, output 0 (no path exists) or 1 (a path exists).
 <br>
 <br>
-An example of valid input is provided in "graph-traversal-1/graphSimple.in". The expected output for this example is provided below.  
+An example of valid input is provided in "graph-traversal-1/graphSimple.in".  
+>4  
+3  
+0 2 2  
+0 3 5  
+2 3 3  
+2  
+0 1  
+0 2  
+
+The expected output for this example is provided below.  
 ![graph-traversal-1](graph-traversal-1/example.PNG)
-<br>
-<br>
 
 ## graph-traversal-2
 This is a variant of the Minimum Spanning Tree (MST) problem with an additional requirement: specified edges that must be included in the final tree. Prim's algorithm is used for the implementation of this solution.
@@ -53,10 +61,20 @@ Output:
 The total weight of the resulting MST, rounded to 2 decimal places.
 <br>
 <br>
-An example of valid input is provided in "graph-traversal-2/graphExample.in". The expected output for this example is provided below.  
+An example of valid input is provided in "graph-traversal-2/graphExample.in".  
+>4  
+5  
+0 2 2  
+0 1 6  
+0 3 5  
+1 3 8  
+2 3 3  
+2  
+0 2  
+1 3  
+
+The expected output for this example is provided below.  
 ![graph-traversal-2](graph-traversal-2/example2.PNG)
-<br>
-<br>
 
 ## graph-traversal-3
 This is another variant of the MST problem, an extension of (graph-traversal-2), where there is an additional requirement: a specified set of vertices which must be connected to exactly 1 edge. This solution again uses Prim's algorithm.
@@ -87,5 +105,20 @@ Output:
 The total weight of the resulting MST, rounded to 2 decimal places.
 <br>
 <br>
-An example of valid input is provided in "graph-traversal-3/graphExample.in". The expected output for this example is provided below.  
+An example of valid input is provided in "graph-traversal-3/graphExample.in".  
+>4  
+5  
+0 1 6  
+0 2 2  
+0 3 5  
+1 3 8  
+2 3 3  
+2  
+0 2  
+1 3  
+2  
+2  
+3  
+
+The expected output for this example is provided below.  
 ![graph-traversal-3](graph-traversal-3/example3.PNG)
