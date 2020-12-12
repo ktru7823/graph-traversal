@@ -16,10 +16,12 @@ vertexId vertexId\
 Input explanation:\
 First define the graph by defining "n" vertices and "m" edges.\
 This is a list of edges (defined by the vertices on each side) in the graph, with their associated weight.\
-Then provide a list of size "q". This is a list of pairs of vertices to apply the algorithm to.\
-An example of valid input is provided in "graphSimple.in".
+Then provide a list of size "q". This is a list of "queries" (pairs of vertices) to apply the algorithm to.\
 
-Output: For each pair of vertices to test in order, output 0 (no path exists) or 1 (a path exists).
+Output: For each pair of vertices to test in order, output 0 (no path exists) or 1 (a path exists).\
+
+An example of valid input is provided in "graphSimple.in". An example output for this is provided below.\
+![graph-traversal-1](graph-traversal-1/example.PNG)
 <br>
 <br>
 
