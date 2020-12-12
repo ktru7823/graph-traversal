@@ -74,7 +74,7 @@ An example of valid input is provided in "graph-traversal-2/graphExample.in".
 1 3  
 
 The expected output for this example is "13", illustrated below.  
-On the left figure, <b><u>bolded lines</u></b> represent edges which must be included in the final MST.  
+On the left figure, ***bolded lines*** represent edges which must be included in the final MST.  
 ![graph-traversal-2](graph-traversal-2/example2.PNG)
 
 ## graph-traversal-3
@@ -122,6 +122,6 @@ An example of valid input is provided in "graph-traversal-3/graphExample.in".
 3  
 
 The expected output for this example is "16", illustrated below.  
-On the left figure, <b><u>bolded lines</u></b> represent edges which must be included in the final MST.  
-<b><u>Bolded vertices</u></b> represent vertices that must be part of exactly 1 edge in the final MST.  
+On the left figure, ***bolded lines*** represent edges which must be included in the final MST.  
+***Bolded vertices*** represent vertices that must be part of exactly 1 edge in the final MST.  
 ![graph-traversal-3](graph-traversal-3/example3.PNG)
