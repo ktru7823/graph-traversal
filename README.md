@@ -34,7 +34,7 @@ An example of valid input is provided in "graph-traversal-1/graphSimple.in".
 0 1  
 0 2  
 
-The expected output for this example is provided below.  
+The expected outputs for this example are provided below.  
 ![graph-traversal-1](graph-traversal-1/example.PNG)
 
 ## graph-traversal-2
@@ -73,7 +73,7 @@ An example of valid input is provided in "graph-traversal-2/graphExample.in".
 0 2  
 1 3  
 
-The expected output for this example is provided below.  
+The expected output for this example is "13", illustrated below.  
 ![graph-traversal-2](graph-traversal-2/example2.PNG)
 
 ## graph-traversal-3
@@ -120,5 +120,5 @@ An example of valid input is provided in "graph-traversal-3/graphExample.in".
 2  
 3  
 
-The expected output for this example is provided below.  
+The expected output for this example is "16", illustrated below.  
 ![graph-traversal-3](graph-traversal-3/example3.PNG)
