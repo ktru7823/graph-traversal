@@ -17,7 +17,7 @@ vertexId vertexId
 
 Input explanation:  
 First define the graph by defining "n" vertices and "m" edges.  
-This is a list of edges (defined by the vertices on each side) in the graph, with their associated weight.  
+Then provide a list of edges (defined by the vertices on each side) in the graph, with their associated weight.  
 Then provide a list of size "q". This is a list of "queries" (pairs of vertices) to apply the algorithm to.
 
 Output:  
@@ -46,7 +46,7 @@ vertexId vertexId
 
 Input explanation:  
 First define the graph by defining "n" vertices and "m" edges.  
-This is a list of edges (defined by the vertices on each side) in the graph, with their associated weight.  
+Then provide a list of edges (defined by the vertices on each side) in the graph, with their associated weight.  
 Then provide a list of size "a". This is a list of edges (pairs of vertices) that must be included in the final MST.
 
 Output:  
@@ -79,7 +79,7 @@ vertexId
 
 Input explanation:  
 First define the graph by defining "n" vertices and "m" edges.  
-This is a list of edges (defined by the vertices on each side) in the graph, with their associated weight.  
+Then provide a list of edges (defined by the vertices on each side) in the graph, with their associated weight.  
 Then provide a list of size "a". This is a list of edges (pairs of vertices) that must be included in the final MST.  
 Then provide another list of size "b". This is a list of vertices that must be part of exactly 1 edge in the final MST.
 
